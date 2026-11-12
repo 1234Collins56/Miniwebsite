@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Group 8 Creative Hub.">
+  <title>Contact | Group 8 Creative Hub</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">G8</span><span>Creative Hub</span></a>
+    <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav"><a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="blog.html">Blog</a><a class="active" href="contact.html">Contact</a></nav>
+  </header>
+  <main>
+    <section class="page-banner"><p class="eyebrow">LET'S CONNECT</p><h1>Contact us</h1><p>Send a question, suggestion or simply say hello.</p></section>
+    <section class="section contact-layout">
+      <div class="contact-info"><p class="eyebrow">WE'D LOVE TO HEAR FROM YOU</p><h2>Start a conversation.</h2><p>Use the form to send us a message. Fields marked with an asterisk are required.</p><div class="contact-detail"><span>✉</span><div><strong>Email</strong><p>hello@group8creative.example</p></div></div><div class="contact-detail"><span>⌖</span><div><strong>Location</strong><p>Kenya</p></div></div></div>
+      <form class="contact-form" id="contact-form">
+        <label for="name">Full name *</label><input id="name" name="name" type="text" placeholder="Enter your name" required minlength="2">
+        <label for="email">Email address *</label><input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="subject">Subject *</label><input id="subject" name="subject" type="text" placeholder="What is your message about?" required>
+        <label for="message">Message *</label><textarea id="message" name="message" rows="5" placeholder="Write your message here..." required minlength="10"></textarea>
+        <button class="button button-primary submit-button" type="submit">Send message <span>→</span></button>
+        <p class="form-note" id="form-status" role="status" aria-live="polite">This demonstration form validates your details in the browser. It does not send data to a server.</p>
+      </form>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div><a class="brand footer-brand" href="index.html"><span class="brand-mark">G8</span><span>Creative Hub</span></a><p>Ideas, images and inspiration.</p></div>
+    <div class="footer-links"><a href="index.html">Home</a><a href="gallery.html">Gallery</a><a href="blog.html">Blog</a><a href="contact.html">Contact</a></div>
+    <div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></div>
+    <p class="copyright">© <span data-year></span> Group 8 Creative Hub. All rights reserved.</p>
+  </footer>
+</body>
+</html>
